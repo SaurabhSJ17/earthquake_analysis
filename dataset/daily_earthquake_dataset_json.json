@@ -1,0 +1,12 @@
+{
+	"name": "daily_earthquake_dataset_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "daily_earthquake_data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

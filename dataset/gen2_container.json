@@ -1,0 +1,19 @@
+{
+	"name": "gen2_container",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "bronze_layer/daily_data",
+				"fileSystem": "sjcontainer"
+			}
+		},
+		"schema": {}
+	}
+}
